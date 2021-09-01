@@ -29,7 +29,7 @@ print(f" [IP] : {socks5_proxy}")
 Pyproxies check every proxy it returns, by sending a request to "api.ipify.org", a website which returns requester ip adress.
 Pyproxies only returns valid proxies whose timeout is less than 10 seconds, you can edit the timeout in the module code.
 All proxies comes from proxyscrape.com, you can edit the proxies source in the module code too.
-Thanks for using my modules, @venaxyt.
+Thanks for using my modules, @venaxyt.<br/>
 
 > ### Download : pip install pyproxies
 > ### Documentation : https://pypi.org/project/pyproxies
