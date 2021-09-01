@@ -1,6 +1,7 @@
 > # PYPROXIES
 
 ``Please subscribe to my Github @venaxyt if you want more modules like this.``
+**Pyproxies only returns proxy, it does not print them like on screenshot.**
 
 ## Send a request with http proxy
 ```
@@ -29,3 +30,6 @@ Pyproxies check every proxy it returns, by sending a request to "api.ipify.org",
 Pyproxies only returns valid proxies whose timeout is less than 10 seconds, you can edit the timeout in the module code.
 All proxies comes from proxyscrape.com, you can edit the proxies source in the module code too.
 Thanks for using my modules, @venaxyt.
+
+> ### Download : pip install pyproxies
+> ### Documentation : https://pypi.org/project/pyproxies
