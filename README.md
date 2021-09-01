@@ -1,6 +1,6 @@
 > # PYPROXIES
 
-``Please subscribe to my Github @venaxyt if you want more modules like this.``
+``Please subscribe to my Github @venaxyt if you want more modules like this.``<br/>
 **Pyproxies only returns proxy, it does not print them like on screenshot.**
 
 ## Send a request with http proxy
