@@ -1,7 +1,7 @@
 # Module made by @venaxyt on Github
-import requests
+import requests, random
 
-def proxy(server):
+def proxy(server, timeout = 5):
     working_proxy = False
     while not working_proxy:
         if server == "http":
@@ -15,7 +15,7 @@ def proxy(server):
         server_proxy = random.choice(server_proxy_list.splitlines())
         proxy = {"https": f"{server}://{server_proxy}"}
         try:
-            requests.get("https://api.ipify.org", proxies = proxy, timeout = 10)
+            requests.get("https://api.ipify.org", proxies = proxy, timeout = timeout)
             working_proxy = True
         except:
             pass
